@@ -26,5 +26,10 @@ para o e-mail do cliente em questão.
 
 ## *Screenshots*
 ### No *Desktop*
+<img src="./screenshots/desktop_1.PNG" width="750">
+<img src="./screenshots/desktop_2.PNG" width="750">
 
 ### No *smartphone*
+
+<img src="./screenshots/phone_1.png" width="250">
+<img src="./screenshots/phone_2.png" width="250">
