@@ -1,0 +1,35 @@
+.footer-container {
+    width: 100%;
+    padding: 20px;
+    background: #000000;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    margin-left: 1em;
+}
+
+.footer-text {
+    color: #FFFFFF;
+}
+
+.footer-label {
+    color: #e6e6e6;
+}
+
+.footer-button {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    background: #000000;
+    color: #e6e6e6;
+    font-family: 'Rasa';
+    border: 1px solid #e6e6e6;
+}
+
+.footer-button:hover {
+    background: #E6E6E6;
+    color: black;
+    border: 1px solid black;
+}

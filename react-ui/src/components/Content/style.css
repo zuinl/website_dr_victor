@@ -1,0 +1,32 @@
+.content-title {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+/* Smartphone */
+.content-title-container {
+    width: 100%;
+    padding: 0em;
+    margin-bottom: 1em;
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    .content-title-container {
+        width: 100%;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+#QuemSou {
+    background-image: url('../../assets/img/books.png');
+}
+
+#OQueFaco {
+    background-image: url('../../assets/img/office.png');
+}
+
+#Atuacao {
+    background-image: url('../../assets/img/writing.png');
+}

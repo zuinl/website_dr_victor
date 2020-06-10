@@ -1,0 +1,25 @@
+{
+  "name": "adv-victor",
+  "version": "1.0.0",
+  "description": "This is the professional website of Victor Martins",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd react-ui && npm install --only=dev && npm install && npm run build"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "consign": "0.1.6",
+    "cors": "2.8.5",
+    "email-validator": "^2.0.4",
+    "express": "4.17.1",
+    "path": "0.12.7",
+    "sendmail": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [],
+  "author": "Leonardo Zuin (linkedin.com/in/lzuin)",
+  "license": "ISC"
+}

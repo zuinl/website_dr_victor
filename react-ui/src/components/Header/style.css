@@ -1,0 +1,48 @@
+.header-container {
+    width: 100%;
+    height: auto;
+    padding: 0.2em;
+    background: #000000;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-container {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        padding: 0.2em;
+        background: #000000;
+    }
+}
+
+.law-logo {
+    width: 25;
+}
+
+.header-name {
+    color: #FFFFFF;
+    font-size: 1.4em;
+    font-family: 'Rasa';
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-link {
+    color: #E6E6E6;
+    font-size: 1.2em;
+    font-family: 'Rasa';
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.header-link:hover, .header-link:active {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.header-link:visited {
+    color: #E6E6E6;
+}
