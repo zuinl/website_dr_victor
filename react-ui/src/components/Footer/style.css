@@ -17,6 +17,12 @@
     color: #e6e6e6;
 }
 
+.footer-link, .footer-link:visited, .footer-link:visited {
+    color: #E6E6E6;
+    font-family: 'Rasa';
+    font-weight: 700;
+}
+
 .footer-button {
     padding: 10px;
     padding-left: 30px;

@@ -15,13 +15,9 @@
     }
 }
 
-.law-logo {
-    width: 25;
-}
-
 .header-name {
     color: #FFFFFF;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-family: 'Rasa';
     margin: 1em;
 }
@@ -32,7 +28,7 @@ a {
 
 .header-link {
     color: #E6E6E6;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: 'Rasa';
     margin-left: 1em;
     margin-right: 1em;

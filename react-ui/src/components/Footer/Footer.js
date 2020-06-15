@@ -89,23 +89,31 @@ export default class Footer extends React.Component {
         return (
             <div className="footer-container" id="FaleComigo">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-12">
                         <h1 className="footer-title">Fale <b>comigo</b></h1>
                     </div>
-                    <div className="col-3 center">
-                        <a href={"mailto:" + config.email}>
-                            <p className="footer-text">{config.email}</p>
-                        </a>
+                </div>
+
+                <div className="row center">
+                    <div className="col-12">
+                        <a href={"mailto:" + config.email} className="footer-link">{config.email}</a>
+                        <p className="footer-text">Clique para enviar um e-mail</p>
                     </div>
-                    <div className="col-1 center">
+                </div>
+                <div className="row center">
+                    <div className="col-12">
                         <a href={config.whatsappLink} target="_blank" rel="noopener noreferrer">
-                            <img src={WhatsAppLogo} alt="WhatsApp" title="WhatsApp" width="25" />
+                            <img src={WhatsAppLogo} alt="WhatsApp" title="WhatsApp" width="30" />
                         </a>
+                        <p className="footer-text">Clique para enviar uma mensagem</p>
                     </div>
-                    <div className="col-1 center">
+                </div>
+                <div className="row center">
+                    <div className="col-12">
                         <a href={config.instagram} target="_blank" rel="noopener noreferrer">
                             <img src={InstagramLogo} alt="Instagram" title="Instagram" width="25" />
                         </a>
+                        <p className="footer-text">Siga-me no Instagram</p>
                     </div>
                 </div>
 
